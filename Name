@@ -37,7 +37,7 @@ class Name {
 	private String first, last;
 	
 	public static void main(String[] args) throws Exception {
-		Scanner scanner = new Scanner(new File("names.text"));
+		Scanner scanner = new Scanner(new File("names.txt"));
 		int count = 0;
 		
 		Name name = read(scanner);
